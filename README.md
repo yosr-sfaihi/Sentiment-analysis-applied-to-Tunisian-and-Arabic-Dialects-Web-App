@@ -2,16 +2,12 @@
 
 Three-class sentiment classification (**negative / neutre / positive**) of user comments written in Tunisian Arabic
 about the Tunisian economic crisis. The project compares classical machine learning, hybrid CNN + recurrent
-networks and a fine-tuned transformer ([AraBERT](https://huggingface.co/aubmindlab/bert-base-arabertv02)), all
-evaluated on the same held-out test set.
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO/blob/main/Sentiment_Analysis_Tunisian_Dialect.ipynb)
+networks and a fine-tuned transformer .
 
 ## Demo
 
-<!-- Replace VIDEO_ID with your YouTube video id (the part after v= in the URL). -->
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
+▶️ [Watch the demo video](https://drive.google.com/file/d/1FTVurlrlCT_Kqt5IR-wwUwcXD-Y5HW_B/view?usp=sharing)
 _Click the image to watch the demo video._
 
 ## Table of contents
@@ -147,12 +143,6 @@ All options are in the **Setup** cell of the notebook:
 > Keep the majority-class baseline in the table: a model that does not clearly beat it has not learned much beyond
 > the class imbalance.
 
-| Model | Accuracy | Macro-F1 |
-|---|---|---|
-| Majority-class baseline | | |
-| _best classical model_ | | |
-| _best CNN + RNN model_ | | |
-| AraBERT (fine-tuned) | | |
 
 Macro-F1 is the main metric because accuracy is misleading on imbalanced classes.
 
