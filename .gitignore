@@ -1,0 +1,17 @@
+# Data: third-party comments, do not publish
+data/
+*.xlsx
+*.csv
+
+# Trained artefacts
+*.pickle
+*.pkl
+*.h5
+*.keras
+*.safetensors
+checkpoints/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+.venv/
